@@ -29,5 +29,5 @@ The model being used here is a modified U-Net.<br/>
 * A U-Net consists of an encoder (downsampler) and decoder (upsampler). In-order to learn robust features, and reduce the number of trainable parameters, a pretrained model can be used as the encoder. Thus, the encoder for this task will be a pretrained MobileNetV2 model, whose intermediate outputs will be used.<br/> 
 * The reason to output three channels is because there are three possible labels for each pixel.
 * The down sampling Model will be the Pre Trained MobileNet and then the image will be upsampled
-![graph](img/acc and loss.png)
+![graph](img/acc_loss.png)
 ![result](img/res.png)
