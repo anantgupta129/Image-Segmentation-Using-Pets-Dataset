@@ -20,9 +20,11 @@ The dataset that will be used for this poject is the [Oxford-IIIT Pet Dataset](h
 
 The dataset is already included in TensorFlow datasets, all that is needed to do is download it ⏬.<br/>
 (The segmentation masks are included in version 3+)
->sample image in dataset**
+>sample image in dataset
 ![sample dataset](img/dataset.png)
+
 **MODEL**
+
 The model being used here is a modified U-Net.<br/>
 * A U-Net consists of an encoder (downsampler) and decoder (upsampler). In-order to learn robust features, and reduce the number of trainable parameters, a pretrained model can be used as the encoder. Thus, the encoder for this task will be a pretrained MobileNetV2 model, whose intermediate outputs will be used.<br/> 
 * The reason to output three channels is because there are three possible labels for each pixel.
