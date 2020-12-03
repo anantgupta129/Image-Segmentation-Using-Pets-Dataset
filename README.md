@@ -31,3 +31,4 @@ The model being used here is a modified U-Net.<br/>
 * The down sampling Model will be the Pre Trained MobileNet and then the image will be upsampled
 ![graph](img/acc_loss.png)
 ![result](img/res.png)
+![result](img/res2.png)
